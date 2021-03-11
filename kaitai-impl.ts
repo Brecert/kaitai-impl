@@ -7,7 +7,7 @@ export abstract class KaitaiImpl {
   constructor(
     protected _io: KaitaiStream,
     protected _parent: KaitaiImpl | null = null,
-    protected _root: KaitaiImpl | null = null
+    protected _root: KaitaiImpl | null = null,
   ) {
     this._root = _root ?? this;
 
@@ -16,4 +16,3 @@ export abstract class KaitaiImpl {
 
   abstract read(): void;
 }
-

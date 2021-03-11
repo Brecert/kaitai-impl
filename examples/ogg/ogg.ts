@@ -36,7 +36,7 @@ export class Page extends KaitaiImpl {
    * Version of the Ogg bitstream format. Currently must be 0.
    */
   version!: Uint8Array;
-  
+
   reserved1!: number;
 
   /**
@@ -101,7 +101,7 @@ export class Page extends KaitaiImpl {
    * maximum of 255 segments in any one page.
    */
   numSegments!: number;
-  
+
   /**
    * Table of lengths of segments.
    */
