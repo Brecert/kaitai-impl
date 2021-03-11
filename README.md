@@ -9,4 +9,3 @@ but updated for typescript/deno
 # Examples
 
 See the [examples](./examples) folder.
-older.
